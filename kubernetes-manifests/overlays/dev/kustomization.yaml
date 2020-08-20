@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+patchesStrategicMerge:
+- ./guestbook-frontend.deployment-patch.yaml
+
+resources:
+- ../../base/
+
+images:
+- name: ahmedulde/guestbook-frontend-demo
+  newTag: 2f1640253e1389660d3da88a740bd821a95fa074
