@@ -9,4 +9,4 @@ resources:
 
 images:
 - name: ahmedulde/guestbook-frontend-demo
-  newTag: 295ddbcc7fd1acc2702aa533958470051f061cca
+  newTag: af271f578fb26fcf953a2221cb0133d2e37dbe5c
